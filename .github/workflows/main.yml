@@ -13,7 +13,7 @@ env:
   API_LEVEL: 33  # Update to API level 33
   ANDROID_BUILD_TOOLS_VERSION: 33.0.2  # Optional: Update to the latest available build tools for API 33
   ANDROID_SDK_PACKAGES: system-images;android-33;google_apis;x86_64 platforms;android-33 build-tools;33.0.2 platform-tools emulator
-  EMULATOR_TIMEOUT: 350
+  EMULATOR_TIMEOUT: 1000
   EMULATOR_NAME: nexus
 
 jobs:
